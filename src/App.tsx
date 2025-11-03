@@ -1,6 +1,7 @@
 import logo from './assets/favicon/icon.svg'
 
 import './styles/header.css'
+import './styles/reset.css'
 
 const App = () => {
   return (
