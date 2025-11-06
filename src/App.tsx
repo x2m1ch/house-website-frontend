@@ -9,7 +9,7 @@ const App = () => {
       <header>
         <a className='logo' href="/">
           <img src={logo} alt="" />
-          <h1>Ink. House</h1>
+          <h1 className='icon'>Ink. House</h1>
         </a>
 
         <nav>

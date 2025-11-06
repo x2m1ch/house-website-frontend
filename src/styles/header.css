@@ -26,6 +26,10 @@ header {
     text-decoration: none;
 }
 
+.icon {
+    font-size: 16px;
+}
+
 nav {
     gap: 60px;
     display: flex;
