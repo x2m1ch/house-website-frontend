@@ -36,3 +36,15 @@
 
     color: #598D66;
 }
+
+.hero-button:active {
+    background-color: #376B44;
+
+    color: white;
+}
+
+.hero-button:hover {
+    background-color: #598D66;
+
+    color: #F4F6F5;
+}

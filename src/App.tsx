@@ -31,7 +31,7 @@ const App = () => {
           <section className='right-hero'>
             <h2 className='hero-content-head'>Реплики картин <br /> от <span style={{color: '#598D66'}}>Ink. House</span></h2>
             <p className='hero-content-body'>Высокое качество отрисовки на плотной бумаге или льняном <br /> холсте. Редкие произведения, доступные цены.</p>
-            <button className='hero-button'>Продукция</button>
+            <a href='/' className='hero-button'>Продукция</a>
           </section>
         </section>
       </main>
