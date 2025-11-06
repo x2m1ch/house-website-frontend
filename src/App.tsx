@@ -1,7 +1,9 @@
 import logo from './assets/favicon/icon.svg'
+import birdHero from './assets/sections/main/hero/bird.png'
 
 import './styles/header.css'
 import './styles/reset.css'
+import './styles/hero.css'
 
 const App = () => {
   return (
@@ -19,6 +21,20 @@ const App = () => {
           <a className='basket' href="/"></a>
         </nav>
       </header>
+
+      <main>
+        <section className='hero'>
+          <section className="left-hero">
+            <img src={birdHero} alt="" />
+          </section>
+
+          <section className='right-hero'>
+            <h2 className='hero-content-head'>Реплики картин <br /> от <span style={{color: '#598D66'}}>Ink. House</span></h2>
+            <p className='hero-content-body'>Высокое качество отрисовки на плотной бумаге или льняном <br /> холсте. Редкие произведения, доступные цены.</p>
+            <button className='hero-button'>Продукция</button>
+          </section>
+        </section>
+      </main>
     </>
   )
 }

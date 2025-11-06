@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hero {
+    gap: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.right-hero {
+    gap: 30px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.hero-content-head {
+    color: #2C2D35;
+    font-size: 60px;
+}
+
+.hero-content-body {
+    color: #86928B;
+    font-size: 18px;
+}
+
+.hero-button {
+    background-color: white;
+    border-color: #598D66;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px 60px;
+
+    color: #598D66;
+}
