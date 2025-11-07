@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.catalog {
+    color: #2C2D35;
+    font-family: 'Raleway';
+}
+
+/* Catalog Head */
+
+.catalog-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalog-head {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.select-country-buttons {
+    gap: 32px;
+    display: flex;
+}
+
+.france, .germany, .england {
+    background-color: #D4E8D9;
+    border-radius: 20px;
+    padding: 10px 20px;
+}

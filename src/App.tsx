@@ -4,6 +4,7 @@ import birdHero from './assets/sections/main/hero/bird.png'
 import './styles/header.css'
 import './styles/reset.css'
 import './styles/hero.css'
+import './styles/catalog.css'
 
 const App = () => {
   return (
@@ -32,6 +33,18 @@ const App = () => {
             <h2 className='hero-content-head'>Реплики картин <br /> от <span style={{color: '#598D66'}}>Ink. House</span></h2>
             <p className='hero-content-body'>Высокое качество отрисовки на плотной бумаге или льняном <br /> холсте. Редкие произведения, доступные цены.</p>
             <a href='/' className='hero-button'>Продукция</a>
+          </section>
+        </section>
+
+        <section className='catalog'>
+          <section className="catalog-header">
+            <h2 className='catalog-head'>Репродукции</h2>
+
+            <section className="select-country-buttons">
+              <button className='france'>Франция</button>
+              <button className='germany'>Германия</button>
+              <button className='england'>Англия</button>
+            </section>
           </section>
         </section>
       </main>
