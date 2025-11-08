@@ -53,3 +53,13 @@
     border-width: 1px;
     border-style: solid;
 }
+
+.add-to-basket:active {
+    background-color: #376B44;
+    color: white;
+}
+
+.add-to-basket:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
