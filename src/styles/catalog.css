@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .catalog {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
     color: #2C2D35;
     font-family: 'Raleway';
 }
@@ -26,4 +30,14 @@
     background-color: #D4E8D9;
     border-radius: 20px;
     padding: 10px 20px;
+}
+
+/* Catalog Body */
+
+.catalog-body {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 0 340px;
 }

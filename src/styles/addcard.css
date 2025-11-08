@@ -1,0 +1,55 @@
+.card {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    width: 1fr;
+    height: auto;
+    padding: 15px;
+
+    background-color: #E1EDE6;
+
+    font-family: 'Raleway';
+}
+
+.card-header {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-bottom {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-creator {
+    color: #86928B;
+    font-size: 18px;
+}
+
+.card-name {
+    color: #2C2D35;
+    font-size: 30px;
+}
+
+.card-price {
+    color: #598D66;
+    font-size: 24px;
+}
+
+.add-to-basket {
+    color: #598D66;
+
+    padding: 20px;
+
+    background-color: #E1EDE6;
+    border-color: #598D66;
+    border-width: 1px;
+    border-style: solid;
+}
