@@ -4,6 +4,11 @@ import birdHero from './assets/sections/main/hero/bird.png'
 
 import starPromo from './assets/sections/promo/star.svg'
 
+import ourTeamImage from './assets/sections/our-team/our-team-img.png'
+import personImageOne from './assets/sections/our-team/team-persons/person-one.svg'
+import personImageTwo from './assets/sections/our-team/team-persons/person-two.svg'
+import personImageThree from './assets/sections/our-team/team-persons/person-three.svg'
+
 import cardFranceImageOne from './assets/sections/catalog/france/column-1-1.jpg' 
 import cardFranceImageTwo from './assets/sections/catalog/france/column-1-2.jpg' 
 import cardFranceImageThree from './assets/sections/catalog/france/column-1-3.jpg' 
@@ -18,6 +23,7 @@ import './styles/reset.css'
 import './styles/hero.css'
 import './styles/catalog.css'
 import './styles/promo.css'
+import './styles/our-team.css'
 
 const App = () => {
   return (
@@ -79,6 +85,22 @@ const App = () => {
           <section className='promo-body'>
             <p className='promo-text-body'>Сложно сказать, почему акционеры крупнейших компаний <br /> призывают нас к новым свершениям, которые, в свою <br /> очередь, должны быть заблокированы в рамках своих <br /> собственных рациональных ограничений. <br /><br /> Принимая во внимание показатели успешности, граница <br /> обучения кадров предопределяет высокую <br /> востребованность направлений прогрессивного развития.</p>
             <button className='show-france-picture'>Ознакомиться</button>
+          </section>
+        </section>
+
+        <section className='our-team-section'>
+          <section className="our-team-left">
+            <img src={ourTeamImage} alt="" />
+          </section>
+
+          <section className="our-team-right">
+            <h2 className='our-team-head'>Наша команда</h2>
+            <p className='our-team-body'>Значимость этих проблем настолько очевидна, что базовый вектор <br /> развития позволяет оценить значение экспериментов, поражающих <br /> по своей масштабности и грандиозности. Мы вынуждены отталкиваться <br /> от того, что консультация с широким активом.</p>
+            <section className="persons">
+              <img src={personImageOne} alt="" />
+              <img src={personImageTwo} alt="" />
+              <img src={personImageThree} alt="" />
+            </section>
           </section>
         </section>
       </main>

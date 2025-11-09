@@ -1,0 +1,33 @@
+.our-team-section {
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #2C2D35;
+    font-family: "Raleway";
+    font-weight: 500;
+}
+
+.our-team-right {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 80px;
+}
+
+.our-team-head {
+    font-size: 50px;
+}
+
+.our-team-body {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.persons {
+    gap: 20px;
+    display: flex;
+}
+
