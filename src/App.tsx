@@ -2,6 +2,8 @@ import logo from './assets/favicon/icon.svg'
 
 import birdHero from './assets/sections/main/hero/bird.png'
 
+import starPromo from './assets/sections/promo/star.svg'
+
 import cardFranceImageOne from './assets/sections/catalog/france/column-1-1.jpg' 
 import cardFranceImageTwo from './assets/sections/catalog/france/column-1-2.jpg' 
 import cardFranceImageThree from './assets/sections/catalog/france/column-1-3.jpg' 
@@ -15,6 +17,7 @@ import './styles/header.css'
 import './styles/reset.css'
 import './styles/hero.css'
 import './styles/catalog.css'
+import './styles/promo.css'
 
 const App = () => {
   return (
@@ -63,7 +66,19 @@ const App = () => {
             <AddCard src={cardFranceImageThree} creator="Франсуа Дюпон" name="Процедура" feature="Цветная литография (40х60)" price="20 000 руб"/>
             <AddCard src={cardFranceImageFour} creator="Луи Детуш" name="Роза" feature="Бумага, акрил (50х80)" price="12 000 руб"/>
             <AddCard src={cardFranceImageFive} creator="Франсуа Дюпон" name="Птичья трапеза" feature="Цветная литография (40х60)" price="22 500 руб"/>
-            <AddCard src={cardFranceImageSix} creator="Пьер Моранж" name="Пейзаж с рыбой" feature="Цветная литография (40х60) " price="20 000 руб"/>
+            <AddCard src={cardFranceImageSix} creator="Пьер Моранж" name="Пейзаж с рыбой" feature="Цветная литография (40х60)" price="20 000 руб"/>
+          </section>
+        </section>
+
+        <section className="promo">
+          <section className='promo-header'>
+            <img src={starPromo} alt="" />
+            <h2 className='heading-promo'>Новая коллекция <br /> французских авторов</h2>
+          </section>
+
+          <section className='promo-body'>
+            <p className='promo-text-body'>Сложно сказать, почему акционеры крупнейших компаний <br /> призывают нас к новым свершениям, которые, в свою <br /> очередь, должны быть заблокированы в рамках своих <br /> собственных рациональных ограничений. <br /><br /> Принимая во внимание показатели успешности, граница <br /> обучения кадров предопределяет высокую <br /> востребованность направлений прогрессивного развития.</p>
+            <button className='show-france-picture'>Ознакомиться</button>
           </section>
         </section>
       </main>

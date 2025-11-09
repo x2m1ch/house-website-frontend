@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.promo {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+
+    background: url(/src/assets/sections/promo/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 60px 200px;
+    margin: 60px 0;
+}
+
+/* Promo Header */
+
+.promo-header {
+    gap: 20px;
+    display: flex;
+}
+
+.heading-promo {
+    color: #F4F6F5;
+    font-family: 'Raleway';
+    font-size: 42px;
+}
+
+/* Promo Body */
+
+.promo-body {
+    gap: 50px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.promo-text-body {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 19px;
+}
+
+.show-france-picture {
+    background-color: #EEDB6D;
+
+    color: #2C2D35;
+    font-family: 'Raleway';
+    font-weight: 500;
+
+    padding: 20px 60px;
+}
