@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import logo from './assets/favicon/icon.svg'
 
 import birdHero from './assets/sections/main/hero/bird.png'
@@ -9,14 +11,9 @@ import personImageOne from './assets/sections/our-team/team-persons/person-one.s
 import personImageTwo from './assets/sections/our-team/team-persons/person-two.svg'
 import personImageThree from './assets/sections/our-team/team-persons/person-three.svg'
 
-import cardFranceImageOne from './assets/sections/catalog/france/column-1-1.jpg' 
-import cardFranceImageTwo from './assets/sections/catalog/france/column-1-2.jpg' 
-import cardFranceImageThree from './assets/sections/catalog/france/column-1-3.jpg' 
-import cardFranceImageFour from './assets/sections/catalog/france/column-2-1.jpg' 
-import cardFranceImageFive from './assets/sections/catalog/france/column-2-2.jpg' 
-import cardFranceImageSix from './assets/sections/catalog/france/column-2-3.jpg' 
-
-import AddCard from './components/addCard'
+import FranceCardSection from './components/franceCardsSection'
+import GermanyCardSection from './components/germanyCardsSection'
+import EnglandCardSection from './components/englandCardsSection'
 
 import './styles/header.css'
 import './styles/reset.css'
@@ -26,6 +23,22 @@ import './styles/promo.css'
 import './styles/our-team.css'
 
 const App = () => {
+  const [stateButtonSwitchCards, setStateButtonSwitchCard] = useState('france')
+
+  const switchCards = () => {
+    if (stateButtonSwitchCards == 'france') {
+      return <FranceCardSection />
+    }
+
+    if (stateButtonSwitchCards == 'germany') {
+      return <GermanyCardSection />
+    }
+
+    if (stateButtonSwitchCards == 'england') {
+      return <EnglandCardSection />
+    }
+  }
+
   return (
     <> 
       <header>
@@ -60,20 +73,13 @@ const App = () => {
             <h2 className='catalog-head'>Репродукции</h2>
 
             <section className="select-country-buttons">
-              <button className='france'>Франция</button>
-              <button className='germany'>Германия</button>
-              <button className='england'>Англия</button>
+              <button onClick={() => setStateButtonSwitchCard('france')} className='france'>Франция</button>
+              <button onClick={() => setStateButtonSwitchCard('germany')} className='germany'>Германия</button>
+              <button onClick={() => setStateButtonSwitchCard('england')} className='england'>Англия</button>
             </section>
           </section>
 
-          <section className='catalog-body'>
-            <AddCard src={cardFranceImageOne} creator="Марсель Руссо" name="Охота Амура" feature="Холст, масло (50х80)" price="14 500 руб"/>
-            <AddCard src={cardFranceImageTwo} creator="Анри Селин" name="Дама с собачкой" feature="Акрил, бумага (50х80)" price="16 500 руб"/>
-            <AddCard src={cardFranceImageThree} creator="Франсуа Дюпон" name="Процедура" feature="Цветная литография (40х60)" price="20 000 руб"/>
-            <AddCard src={cardFranceImageFour} creator="Луи Детуш" name="Роза" feature="Бумага, акрил (50х80)" price="12 000 руб"/>
-            <AddCard src={cardFranceImageFive} creator="Франсуа Дюпон" name="Птичья трапеза" feature="Цветная литография (40х60)" price="22 500 руб"/>
-            <AddCard src={cardFranceImageSix} creator="Пьер Моранж" name="Пейзаж с рыбой" feature="Цветная литография (40х60)" price="20 000 руб"/>
-          </section>
+          {switchCards()}
         </section>
 
         <section className="promo">
@@ -95,7 +101,7 @@ const App = () => {
 
           <section className="our-team-right">
             <h2 className='our-team-head'>Наша команда</h2>
-            <p className='our-team-body'>Значимость этих проблем настолько очевидна, что базовый вектор <br /> развития позволяет оценить значение экспериментов, поражающих <br /> по своей масштабности и грандиозности. Мы вынуждены отталкиваться <br /> от того, что консультация с широким активом.</p>
+            <p className='our-team-body'>Значимость этих проблем настолько очевидна, что базовый вектор <br /> развития позволяет оценить значение экспериментов, поражающих <br /> по своей масштабности и грандиозности. Мы вынуждены отталкиваться <br /> от того, что консультация с широким активом.</p>
             <section className="persons">
               <img src={personImageOne} alt="" />
               <img src={personImageTwo} alt="" />
