@@ -73,9 +73,9 @@ const App = () => {
             <h2 className='catalog-head'>Репродукции</h2>
 
             <section className="select-country-buttons">
-              <button onClick={() => setStateButtonSwitchCard('france')} className='france'>Франция</button>
-              <button onClick={() => setStateButtonSwitchCard('germany')} className='germany'>Германия</button>
-              <button onClick={() => setStateButtonSwitchCard('england')} className='england'>Англия</button>
+              <button onClick={() => setStateButtonSwitchCard('france')} className='france cards-switch-buttons'>Франция</button>
+              <button onClick={() => setStateButtonSwitchCard('germany')} className='germany cards-switch-buttons'>Германия</button>
+              <button onClick={() => setStateButtonSwitchCard('england')} className='england cards-switch-buttons'>Англия</button>
             </section>
           </section>
 

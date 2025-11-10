@@ -6,6 +6,9 @@
     flex-direction: column;
 
     color: #2C2D35;
+    flex-direction: column;
+
+    color: #2C2D35;
     font-family: 'Raleway';
 }
 
@@ -26,10 +29,20 @@
     display: flex;
 }
 
-.france, .germany, .england {
+.cards-switch-buttons {
     background-color: #D4E8D9;
     border-radius: 20px;
     padding: 10px 20px;
+}
+
+.cards-switch-buttons:active {
+    background-color: #376B44;
+    color: #F4F6F5;
+}
+
+.cards-switch-buttons:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
 }
 
 /* Catalog Body */
