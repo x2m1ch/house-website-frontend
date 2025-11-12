@@ -4,12 +4,12 @@ import logo from './assets/favicon/icon.svg'
 
 import birdHero from './assets/sections/main/hero/bird.png'
 
-import starPromo from './assets/sections/promo/star.svg'
+import starPromo from './assets/sections/main/promo/star.svg'
 
-import ourTeamImage from './assets/sections/our-team/our-team-img.png'
-import personImageOne from './assets/sections/our-team/team-persons/person-one.svg'
-import personImageTwo from './assets/sections/our-team/team-persons/person-two.svg'
-import personImageThree from './assets/sections/our-team/team-persons/person-three.svg'
+import ourTeamImage from './assets/sections/main/our-team/our-team-img.png'
+import personImageOne from './assets/sections/main/our-team/team-persons/person-one.svg'
+import personImageTwo from './assets/sections/main/our-team/team-persons/person-two.svg'
+import personImageThree from './assets/sections/main/our-team/team-persons/person-three.svg'
 
 import FranceCardSection from './modules/franceCardsSection'
 import GermanyCardSection from './modules/germanyCardsSection'

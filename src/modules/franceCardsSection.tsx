@@ -1,9 +1,9 @@
-import cardFranceImageOne from '../assets/sections/catalog/france/column-1-1.jpg' 
-import cardFranceImageTwo from '../assets/sections/catalog/france/column-1-2.jpg' 
-import cardFranceImageThree from '../assets/sections/catalog/france/column-1-3.jpg' 
-import cardFranceImageFour from '../assets/sections/catalog/france/column-2-1.jpg' 
-import cardFranceImageFive from '../assets/sections/catalog/france/column-2-2.jpg' 
-import cardFranceImageSix from '../assets/sections/catalog/france/column-2-3.jpg' 
+import cardFranceImageOne from '../assets/sections/main/catalog/france/column-1-1.jpg' 
+import cardFranceImageTwo from '../assets/sections/main/catalog/france/column-1-2.jpg' 
+import cardFranceImageThree from '../assets/sections/main/catalog/france/column-1-3.jpg' 
+import cardFranceImageFour from '../assets/sections/main/catalog/france/column-2-1.jpg' 
+import cardFranceImageFive from '../assets/sections/main/catalog/france/column-2-2.jpg' 
+import cardFranceImageSix from '../assets/sections/main/catalog/france/column-2-3.jpg' 
 
 import AddCard from '../components/addCard'
 

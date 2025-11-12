@@ -1,9 +1,9 @@
-import cardGermanyImageOne from '../assets/sections/catalog/germany/column-1-1.jpg' 
-import cardGermanyImageTwo from '../assets/sections/catalog/germany/column-1-2.jpg' 
-import cardGermanyImageThree from '../assets/sections/catalog/germany/column-1-3.jpg' 
-import cardGermanyImageFour from '../assets/sections/catalog/germany/column-2-1.jpg' 
-import cardGermanyImageFive from '../assets/sections/catalog/germany/column-2-2.jpg' 
-import cardGermanyImageSix from '../assets/sections/catalog/germany/column-2-3.jpg' 
+import cardGermanyImageOne from '../assets/sections/main/catalog/germany/column-1-1.jpg' 
+import cardGermanyImageTwo from '../assets/sections/main/catalog/germany/column-1-2.jpg' 
+import cardGermanyImageThree from '../assets/sections/main/catalog/germany/column-1-3.jpg' 
+import cardGermanyImageFour from '../assets/sections/main/catalog/germany/column-2-1.jpg' 
+import cardGermanyImageFive from '../assets/sections/main/catalog/germany/column-2-2.jpg' 
+import cardGermanyImageSix from '../assets/sections/main/catalog/germany/column-2-3.jpg' 
 
 import AddCard from '../components/addCard'
 

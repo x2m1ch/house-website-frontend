@@ -1,9 +1,9 @@
-import cardEnglandImageOne from '../assets/sections/catalog/england/column-1-1.jpg' 
-import cardEnglandImageTwo from '../assets/sections/catalog/england/column-1-2.jpg'
-import cardEnglandImageThree from '../assets/sections/catalog/england/column-1-3.jpg'  
-import cardEnglandImageFour from '../assets/sections/catalog/england/column-2-1.jpg' 
-import cardEnglandImageFive from '../assets/sections/catalog/england/column-2-2.jpg' 
-import cardEnglandImageSix from '../assets/sections/catalog/england/column-2-3.jpg' 
+import cardEnglandImageOne from '../assets/sections/main/catalog/england/column-1-1.jpg' 
+import cardEnglandImageTwo from '../assets/sections/main/catalog/england/column-1-2.jpg'
+import cardEnglandImageThree from '../assets/sections/main/catalog/england/column-1-3.jpg'  
+import cardEnglandImageFour from '../assets/sections/main/catalog/england/column-2-1.jpg' 
+import cardEnglandImageFive from '../assets/sections/main/catalog/england/column-2-2.jpg' 
+import cardEnglandImageSix from '../assets/sections/main/catalog/england/column-2-3.jpg' 
 
 import AddCard from '../components/addCard'
 
