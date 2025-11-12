@@ -11,9 +11,9 @@ import personImageOne from './assets/sections/our-team/team-persons/person-one.s
 import personImageTwo from './assets/sections/our-team/team-persons/person-two.svg'
 import personImageThree from './assets/sections/our-team/team-persons/person-three.svg'
 
-import FranceCardSection from './components/franceCardsSection'
-import GermanyCardSection from './components/germanyCardsSection'
-import EnglandCardSection from './components/englandCardsSection'
+import FranceCardSection from './modules/franceCardsSection'
+import GermanyCardSection from './modules/germanyCardsSection'
+import EnglandCardSection from './modules/englandCardsSection'
 
 import facebook from './assets/sections/footer/facebook.svg'
 import youtube from './assets/sections/footer/youtube.svg'
