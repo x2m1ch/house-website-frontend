@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
-import FranceCardSection from './franceCardsSection'
-import GermanyCardSection from './germanyCardsSection'
-import EnglandCardSection from './englandCardsSection'
+import FranceCardSection from './FranceCardsSection'
+import GermanyCardSection from './GermanyCardsSection'
+import EnglandCardSection from './EnglandCardsSection'
 
 import './styles/catalog.css'
 

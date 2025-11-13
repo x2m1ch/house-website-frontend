@@ -14,7 +14,7 @@ const AddCard = (props: any) => {
             
             <section className='card-bottom'>
                 <p className='card-price'>{props.price}</p>
-                <button className='add-to-basket'>В корзину</button>
+                <a className='add-to-basket' href="/">В корзину</a>
             </section>
         </article>
     )

@@ -5,7 +5,7 @@ import cardEnglandImageFour from '../assets/sections/main/catalog/england/column
 import cardEnglandImageFive from '../assets/sections/main/catalog/england/column-2-2.jpg' 
 import cardEnglandImageSix from '../assets/sections/main/catalog/england/column-2-3.jpg' 
 
-import AddCard from '../components/addCard'
+import AddCard from '../components/AddCard'
 
 import './styles/catalog.css'
 

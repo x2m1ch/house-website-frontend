@@ -5,7 +5,7 @@ import cardFranceImageFour from '../assets/sections/main/catalog/france/column-2
 import cardFranceImageFive from '../assets/sections/main/catalog/france/column-2-2.jpg' 
 import cardFranceImageSix from '../assets/sections/main/catalog/france/column-2-3.jpg' 
 
-import AddCard from '../components/addCard'
+import AddCard from '../components/AddCard'
 
 import './styles/catalog.css'
 

@@ -44,10 +44,12 @@
 }
 
 .add-to-basket {
+    display: flex;
+    justify-content: center;
+
     color: #598D66;
 
     padding: 20px;
-
     background-color: #E1EDE6;
     border-color: #598D66;
     border-width: 1px;
