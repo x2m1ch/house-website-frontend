@@ -3,7 +3,7 @@ import personImageOne from '../assets/sections/main/our-team/team-persons/person
 import personImageTwo from '../assets/sections/main/our-team/team-persons/person-two.svg'
 import personImageThree from '../assets/sections/main/our-team/team-persons/person-three.svg'
 
-import '../styles/our-team.css'
+import './styles/our-team.css'
 
 const OurTeam = () => {
     return (

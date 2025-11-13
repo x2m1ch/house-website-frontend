@@ -1,6 +1,6 @@
 import starPromo from '../assets/sections/main/promo/star.svg'
 
-import '../styles/promo.css'
+import './styles/promo.css'
 
 const Promo = () => {
     return (

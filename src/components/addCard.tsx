@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import '../styles/addcard.css'
+import './styles/addcard.css'
 
 const AddCard = (props: any) => {
     return (

@@ -5,7 +5,7 @@ import Promo from './modules/Promo'
 import OurTeam from './modules/OurTeam'
 import Footer from './modules/Footer'
 
-import './styles/reset.css'
+import './reset.css'
 
 const App = () => {
   return (

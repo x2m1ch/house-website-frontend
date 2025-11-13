@@ -1,6 +1,6 @@
 import birdHero from '../assets/sections/main/hero/bird.png'
 
-import '../styles/hero.css'
+import './styles/hero.css'
 
 const Hero = () => {
     return (

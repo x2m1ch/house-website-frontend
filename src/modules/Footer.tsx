@@ -3,7 +3,7 @@ import facebook from '../assets/sections/footer/facebook.svg'
 import youtube from '../assets/sections/footer/youtube.svg'
 import instagram from '../assets/sections/footer/instagram.svg'
 
-import '../styles/footer.css'
+import './styles/footer.css'
 
 const Footer = () => {
     return (

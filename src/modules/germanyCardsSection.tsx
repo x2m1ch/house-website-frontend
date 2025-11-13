@@ -7,7 +7,7 @@ import cardGermanyImageSix from '../assets/sections/main/catalog/germany/column-
 
 import AddCard from '../components/addCard'
 
-import '../styles/catalog.css'
+import './styles/catalog.css'
 
 const FranceCardSection = () => {
     return (

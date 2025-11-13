@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
-import FranceCardSection from '../modules/franceCardsSection'
-import GermanyCardSection from '../modules/germanyCardsSection'
-import EnglandCardSection from '../modules/englandCardsSection'
+import FranceCardSection from './franceCardsSection'
+import GermanyCardSection from './germanyCardsSection'
+import EnglandCardSection from './englandCardsSection'
 
-import '../styles/catalog.css'
+import './styles/catalog.css'
 
 const Catalog = () => {
     const [stateButtonSwitchCards, setStateButtonSwitchCard] = useState('france')
