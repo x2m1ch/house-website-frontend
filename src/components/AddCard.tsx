@@ -1,8 +1,12 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
 import "./styles/addcard.css";
 
-const AddCard = (props: any) => {
+const AddCard = (props: {
+  src: string;
+  creator: string;
+  name: string;
+  feature: string;
+  price: string;
+}) => {
   return (
     <article className="card">
       <section className="card-header">
