@@ -1,15 +1,15 @@
-import Header from './modules/Header'
-import Hero from './modules/Hero'
-import Catalog from './modules/Catalog'
-import Promo from './modules/Promo'
-import OurTeam from './modules/OurTeam'
-import Footer from './modules/Footer'
+import Header from "./modules/Header";
+import Hero from "./modules/Hero";
+import Catalog from "./modules/Catalog";
+import Promo from "./modules/Promo";
+import OurTeam from "./modules/OurTeam";
+import Footer from "./modules/Footer";
 
-import './reset.css'
+import "./reset.css";
 
 const App = () => {
   return (
-    <> 
+    <>
       <Header />
 
       <main>
@@ -21,7 +21,7 @@ const App = () => {
 
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
